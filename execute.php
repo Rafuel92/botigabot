@@ -85,47 +85,14 @@ $rand_words_wordlist_meteo = array_rand($wordlist_meteo, 1);
 $rand_meteo = $wordlist_meteo[$rand_words_wordlist_meteo];
 
 switch($text) {
-  case 'postiglione' : 
-    $ret = 'oh no big snoop dogg';
-    break;
-  case '/postibot' :
-    $ret = "1. postiglione \n 2. come vah? \n 3. tette \n 4.redmine \n 5. chrome desktop \n 6. chiarah \n 7. assegna ticket, apri ticket, apro un ticket, apri un ticket \n 8. meteo \n 9. sidcamp \n 10. francesi";
-    break;
-  case 'come vah?' :
-    $ret ='da dioh';
-    break;
-  case 'tette' :
-    $ret ='una voltah ho visto una mia amicah in topless in barcah...';
-    break;
-  case 'redmine' :
-    $ret = 'no, Gaetah, non hai capito!!!';
+  case 'controllo' : 
+    $ret = 'controllo puteca';
   break;
-  case 'chrome desktop':
-    $ret = 'che roba è ? un nuovo browser ?';
-    break;
-  case 'chiarah':
-    $ret = "Antonio puoi assegnare un ticket a Chiarah in cui le dici di caricare l'immagine di sfondo?";
-    break;
-  case 'assegna ticket':
-    $ret = "$name1 $word_wordlist_1_1 $name2 $word_wordlist_2_1 $name3 $word_wordlist_3_1";
+  case 'controllo puteca' : 
+    $ret = 'ci sono 3 persone sedute quindi operative';
   break;
-  case 'apri ticket':
-    $ret = "$name1 $word_wordlist_1_1 $name2 $word_wordlist_2_1 $name3 $word_wordlist_3_1";
-  break;
-  case 'apro un ticket':
-    $ret = "$name1 $word_wordlist_1_1 $name2 $word_wordlist_2_1 $name3 $word_wordlist_3_1";
-  break;
-  case 'apri un ticket':
-    $ret = "$name1 $word_wordlist_1_1 $name2 $word_wordlist_2_1 $name3 $word_wordlist_3_1";
-  break;
-  case 'meteo':
-    $ret = $rand_meteo;
-  break;
-  case 'sidcamp':
-    $ret = 'no Gaetah, nooo!';
-  break;
-  case 'francesi':
-    $ret = 'Gli svizzeri francesih sono diversih dai francesih del Belgioh';
+  case 'postibot' : 
+    $ret = 'ho bisogno di una persona di carattere per questo progetto, come postibot';
   break;
 }
 
